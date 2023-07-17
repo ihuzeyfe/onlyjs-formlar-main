@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Only JS- Formlar</title>
+  </head>
+  <body>
+    <form action="">
+      <h2>ARAMA YAP</h2>
+      <div>
+        <label id="label2" for="search">Araç İsmi Yazınız :</label>
+        <input type="text" id="search" />
+      </div>
+      <br>
+      <div>
+        <label id="label2" for="ad">Ad :</label>
+        <input type="text" id="ad" />
+      </div>
+      <br>
+      <div>
+        <label id="label2" for="soyad">Soyad :</label>
+        <input type="text" id="soyad" />
+      </div>
+      <br>
+      <!-- aşağıdaki typelara dikkat et(type e-mail,number,tel,date dikkat et!!!!!)  -->
+      <div>
+        <label id="label2" for="email">E-mail :</label>
+        <input type="email" id="email" /> 
+      </div>
+      <br>
+      <div>
+        <label id="label2" for="age">Yaş :</label>
+        <input type="number" id="age" /> 
+      </div>
+      <br>
+      <div>
+        <label id="label2" for="phone_number">Telefon Numarası :</label>
+        <input type="tel" id="phone_number" /> 
+      </div>
+      <br>
+      <div>
+        <label id="label2" for="birthdate">Doğum Tarihi :</label>
+        <input type="date" id="birthdate" /> 
+      </div>
+      <br>
+      <div>
+        <label id="label2" for="website">Web Sitesi :</label>
+        <input type="url" id="website" /> 
+      </div>
+      <br>
+      <div class="div">
+        <label for="favorite_color"> Favori Renginiz</label>
+        <input type="color" id="favorite_color">
+      </div>
+      <br>
+      <div class="div">
+        <label for="profile_foto">Profil Fotoğrafınız</label>
+        <input type="file" id="profile_foto">
+      </div>
+      <br>
+      <div class="div">
+        <label for="item"> ne satın almak istiyorsunuz?</label>
+        <input type="search" id="item" list="item_list">
+        <datalist id="item_list">
+          <option value="kitap"></option>
+          <option value="çikolata"></option>
+          <option value="masa"></option>
+          <option value="kahve"></option>
+          <option value="ketçap"></option>
+        </datalist>
+      </div>
+      <br>
+      <div class="div">
+        <label for="password">Password Giriniz</label>
+        <input type="password" id="password">
+      </div>
+      <br>
+      <div class="div">
+        <label for="password_confirm">Password Confirm</label>
+        <input type="password" id="password_confirm">
+      </div>
+    </form>
+  </body>
+</html>
